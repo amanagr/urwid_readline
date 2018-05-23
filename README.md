@@ -16,20 +16,24 @@ directory.
 
 Supported operations (names consistent with bash):
 
-- `forward-char`
-- `backward-char`
-- `forward-word`
-- `backward-word`
-- `delete-char`
-- `backward-delete-char`
-- `kill-word`
-- `backward-kill-word`
-- `beginning-of-line`
-- `end-of-line`
-- `kill-line`
-- `kill-whole-line`
-- `transpose-chars`
-- autocomplete
+| Command                                               | Key Combination    |
+| ----------------------------------------------------- | ------------------ |
+| Beginning of line                                     | `Ctrl`+`A`         |
+| Backward one character                                | `Ctrl`+`B` / `←`   |
+| Backward one word                                     | `Meta`+`B`         |
+| Send io.EOF                                           | `Ctrl`+`C`         |
+| Delete one character                                  | `Ctrl`+`D`         |
+| Delete one word                                       | `Meta`+`D`         |
+| End of line                                           | `Ctrl`+`E`         |
+| Forward one character                                 | `Ctrl`+`F` / `→`   |
+| Forward one word                                      | `Meta`+`F`         |
+| Delete previous character                             | `Ctrl`+`H`         |
+| Transpose characters                                  | `Ctrl`+`T`         |
+| Kill (cut) forwards to the end of the line            | `Ctrl` + `K`       |
+| Kill (cut) backwards to the start of the line.        | `Ctrl` + `U`       |
+| Kill (cut) forwards to the end of the current word    | `Meta` + `D`       |
+| Kill (cut) backwards to the start of the current word | `Ctrl` + `W`       |
+| Autocomplete                                          | See examples       |
 
 Notable unsupported operations (let me know if you need these):
 
